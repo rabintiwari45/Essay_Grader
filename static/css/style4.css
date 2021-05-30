@@ -1,0 +1,47 @@
+header{
+	color:red;
+	text-align: center;
+	background-color: rgb(11, 216, 62);
+	font-size: 120px;
+    font-family: inherit;}
+    
+body{
+    background: rgb(164, 206, 206);
+
+
+}
+
+
+.btn-info {background-color: #2196F3;
+	height:40px;
+	width:100px;} /* Blue */
+.btn-info:hover {background: #0b7dda;}
+
+
+.container{
+	width:100%;
+	margin: auto;
+	overflow: hidden;
+}
+table {
+	width : 500px;
+
+}
+th {
+	text-align: left;
+}
+table, th, td{
+	border: 1px solid #000;
+    border-collapse: collapse;
+    
+
+}
+th, td{
+    padding:1px;
+    font-size:25px;
+}
+
+
+tr:nth-child(even){
+	background-color: #fff;
+}

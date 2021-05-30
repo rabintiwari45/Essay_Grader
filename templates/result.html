@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+	<!--<header>
+		<div class="container">
+		<div id="brandname">
+			ESSAYGRADER
+		</div>
+		<h2>Essay Grader for your essay</h2>
+		
+	</div>
+	</header>-->
+	<header><strong>ESSAY GRADER</strong></header>
+	<hr>
+	<hr>
+	<p style="color:blue;font-size:50px;text-align: center;"><b>Results for your essay</b></p>
+	<hr>
+	<hr>
+	<div class="results">
+	<h2 style="font-size:40px;">The predicted score for your essay:</h2>
+	<h1>{{prediction}}</h1>
+	
+	</div>
+	<hr>
+	<hr>
+	<div>
+	<p style="color:blue;font-size:40px;text-align: center;">Table for the features:</p>
+	<table>
+		<tr>
+			<th>SN.</th>
+			<th>Feature</th>
+			<th>No. of feature</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>total no. of words</td>
+			<td>{{a}}</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>total no. of unique words</td>
+			<td>{{b}}</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>sentene length</td>
+			<td>{{c}}</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>spelling error</td>
+			<td>{{d}}</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>sentiment</td>
+			<td>{{e}}</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>noun</td>
+			<td>{{f}}</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>verb</td>
+			<td>{{g}}</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>adjective</td>
+			<td>{{h}}</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>adverb</td>
+			<td>{{i}}</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>punctuatuation</td>
+			<td>{{j}}</td>
+		</tr>
+	
+		<tr>
+			<td>11</td>
+			<td>grammar_error</td>
+			<td>{{k}}</td>
+		</tr>
+
+
+
+
+
+	</table>
+	<hr>
+	<hr>
+	</div>
+
+	<h3 style="color:blue;font-size:40px;text-align: center;">The corrected essay:</h3>
+	<p style="font-size:25px;">{{corrected_text}}</p>
+	<hr>
+	<hr>
+	<h3 style="color:blue;font-size:40px;text-align: center;">Your original essay:</h3>
+	<p style="font-size:25px;">{{data}}
+	</p>
+	<hr>
+	<hr>
+	
+
+</body>
+</html>
