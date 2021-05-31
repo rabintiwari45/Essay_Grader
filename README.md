@@ -28,3 +28,23 @@ The original dataset can be found [Here](https://www.kaggle.com/c/asap-aes)
 ## Overview
 This is a essay scoring web application trained on top of keras API. We implemented a simple bag of words model as our baseline and improve upon that.
 We trained different machine learning algorithm using the features extracted from training essay. We also explored the neural approach to essay grader(Using the word embedding to train various architecture of Neural Network).
+
+## Installation
+The code is written in Python 3.7.10. The required packages and libraries for this project are:
+'''
+nltk==3.3
+spacy==3.0.6
+language_check==1.1
+pandas>=0.23.0
+numpy>=1.19.3
+textblob==0.15.3
+pyspellchecker==0.5.0
+gensim==3.4.0
+Flask==0.10.1
+gunicorn==20.1.0
+itsdangerous==0.24
+Jinja2==2.10
+tensorflow-cpu>=2.3.1
+Werkzeug==0.14.1
+MarkupSafe==0.23
+'''
