@@ -25,7 +25,7 @@ from sklearn.metrics import cohen_kappa_score
 nltk.download('punkt')
 tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
 
-PATH = "/content/essay_grader_features_full.csv"
+PATH = "/content/Essay_Grader/data/essay_grader_features_extracted.csv"
 NUM_FEATURES = 300
 CONTEXTS = 10
 MIN_WORD_COUNT = 10
