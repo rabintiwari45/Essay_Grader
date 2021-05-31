@@ -15,7 +15,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #PATH = '/content/training_set_rel3.xls'
-PATH = "C:/Users/Rabin/Documents/Downloads/asap-aes/training_set_rel3.xls"
+PATH = "/content/Essay_Grader/data/training_set_rel3.xls"
 MAX_FEATURES = 1500
 
 
