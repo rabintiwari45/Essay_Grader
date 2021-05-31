@@ -52,3 +52,34 @@ You can install all the library by running below command after cloning the repos
 ```
 pip install -r requirements.txt
 ```
+
+## Running the program
+
+After cloning the repository, you can run below command to run the program.
+
+TO RUN BASELINE MODEL
+```
+python essay_grader_baseline.py
+```
+TO RUN FEATURE EXTRACTION
+```
+python essay_grader_feature_extraction.py
+```
+TO RUN MACHINE LEARNING MODEL
+```
+python essay_grader_machine_learning.py
+```
+TO RUN NEURAL NETWORK
+```
+python essay_grader_neural.py
+```
+TO TEST THE ESSAY
+```
+python essay_grader_test.py
+```
+
+
+
+
+
+
