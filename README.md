@@ -31,7 +31,7 @@ We trained different machine learning algorithm using the features extracted fro
 
 ## Installation
 The code is written in Python 3.7.10. The required packages and libraries for this project are:
-'''
+```
 nltk==3.3
 spacy==3.0.6
 language_check==1.1
@@ -47,4 +47,4 @@ Jinja2==2.10
 tensorflow-cpu>=2.3.1
 Werkzeug==0.14.1
 MarkupSafe==0.23
-'''
+```
