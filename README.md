@@ -78,6 +78,10 @@ TO TEST THE ESSAY
 ```
 python essay_grader_test.py
 ```
+TO RUN THE FLASK WEB APP
+```
+python app.py
+```
 
 ### TO READ MORE ABOUT THE PROJECT YOU CAN CHECK THE ARTICLE [HERE]()
 
