@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-PATH = "/content/essay_grader_features_full.csv"
+PATH = "/content/Essay_Grader/data/essay_grader_features_extracted.csv"
 MAX_FEATURES = 500
 
 
