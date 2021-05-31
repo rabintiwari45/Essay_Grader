@@ -14,7 +14,7 @@ nltk.download('punkt')
 import warnings
 warnings.filterwarnings("ignore")
 
-PATH = '/content/training_set_rel3.xls'
+PATH = '/content/Essay_Grader/data/training_set_rel3.xls'
 
 def main():
   df = essay_grader_baseline.load_data(PATH)
