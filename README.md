@@ -48,3 +48,8 @@ tensorflow-cpu>=2.3.1
 Werkzeug==0.14.1
 MarkupSafe==0.23
 ```
+You can install all the library by running below command after cloning the repository.
+```
+pip install -r requirements.txt
+
+```
