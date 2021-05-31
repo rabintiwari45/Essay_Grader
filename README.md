@@ -1,5 +1,6 @@
 # Essay Grader
-The article for the project can be found [Here]()
+
+### THE ARTICLE FOR THE PROJECT CAN BE FOUND [Here]()
 
 ## Table of Content
 * Demo
@@ -78,7 +79,7 @@ TO TEST THE ESSAY
 python essay_grader_test.py
 ```
 
-
+### THE ARTICLE FOR THE PROJECT CAN BE FOUND [Here]()
 
 
 
