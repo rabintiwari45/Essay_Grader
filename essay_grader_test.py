@@ -16,12 +16,12 @@ nltk.download('punkt')
 import warnings
 warnings.filterwarnings("ignore")
 
-PATH_SKIP = 'model_skip.model'
-PATH_CBOW = 'model_cbow.model'
-PATH_FEEDFORWARD = 'model_feedforward.h5'
-PATH_LSTM = 'model_lstm.h5'
-PATH_GRU = 'model_gru.h5'
-PATH_SCALER = 'scaler.pkl'
+PATH_SKIP = '/content/Essay_Grader/models/model_skip.model'
+PATH_CBOW = '/content/Essay_Grader/models/model_cbow.model'
+PATH_FEEDFORWARD = '/content/Essay_Grader/models/model_feedforward.h5'
+PATH_LSTM = '/content/Essay_Grader/models/model_lstm.h5'
+PATH_GRU = '/content/Essay_Grader/models/model_gru.h5'
+PATH_SCALER = '/content/Essay_Grader/models/scaler.pkl'
 NUM_FEATURES = 300
 
 
