@@ -1,6 +1,6 @@
 # Essay Grader
 
-### THE ARTICLE FOR THE PROJECT CAN BE FOUND [Here]()
+### THE ARTICLE FOR THE PROJECT CAN BE FOUND [HERE](https://rabintiwari45.github.io/portfolio_website3/post/project-3/)
 
 ## Table of Content
 * Demo
@@ -83,7 +83,7 @@ TO RUN THE FLASK WEB APP
 python app.py
 ```
 
-### TO KNOW MORE ABOUT THE PROJECT YOU CAN CHECK THE ARTICLE [HERE]()
+### TO KNOW MORE ABOUT THE PROJECT YOU CAN CHECK THE ARTICLE [HERE](https://rabintiwari45.github.io/portfolio_website3/post/project-3/)
 
 
 
