@@ -8,7 +8,7 @@
 * Overview
 * Installation
 * Running the program
-* Technolgy used
+
 
 ## Demo
 ![image](https://github.com/rabintiwari45/Essay_Grader/blob/main/images/demo.png)
